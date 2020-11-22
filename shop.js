@@ -36,6 +36,7 @@ function addCar(event) { // Adds car to cart.
         const itemIndex = cart.findIndex((item) => item.name === 'Car');
         cart[itemIndex].quantity += 1;
         updateCartLocalStorage();
+        alert('Car added to cart');
     } else { // Adds new instance of item to cart.
         const item = {
             name: 'Car',
@@ -44,6 +45,7 @@ function addCar(event) { // Adds car to cart.
         }
         cart.push(item);
         updateCartLocalStorage();
+        alert('Car added to cart');
     }
 }
 
@@ -55,6 +57,7 @@ function addNotepad(event) { // Adds notepad to cart.
         const itemIndex = cart.findIndex((item) => item.name === 'Notepad');
         cart[itemIndex].quantity += 1;
         updateCartLocalStorage();
+        alert('Notepad added to cart');
     } else { // Adds new instance of item to cart.
         const item = {
             name: 'Notepad',
@@ -63,6 +66,7 @@ function addNotepad(event) { // Adds notepad to cart.
         }
         cart.push(item);
         updateCartLocalStorage();
+        alert('Notepad added to cart');
     }
 }
 
@@ -74,6 +78,7 @@ function addPen(event) { // Adds pen to cart.
         const itemIndex = cart.findIndex((item) => item.name === 'Pen');
         cart[itemIndex].quantity += 1;
         updateCartLocalStorage();
+        alert('Pen added to cart');
     } else { // Adds new instance of item to cart.
         const item = {
             name: 'Pen',
@@ -82,6 +87,7 @@ function addPen(event) { // Adds pen to cart.
         }
         cart.push(item);
         updateCartLocalStorage();
+        alert('Pen added to cart');
     }
 }
 
@@ -93,6 +99,7 @@ function addPillow(event) { // Adds pillow to cart.
         const itemIndex = cart.findIndex((item) => item.name === 'Pillow');
         cart[itemIndex].quantity += 1;
         updateCartLocalStorage();
+        alert('Pillow added to cart');
     } else { // Adds new instance of item to cart.
         const item = {
             name: 'Pillow',
@@ -101,6 +108,7 @@ function addPillow(event) { // Adds pillow to cart.
         }
         cart.push(item);
         updateCartLocalStorage();
+        alert('Pillow added to cart');
     }
 }
 
@@ -112,6 +120,7 @@ function addChair(event) { // Adds chair to cart.
         const itemIndex = cart.findIndex((item) => item.name === 'Chair');
         cart[itemIndex].quantity += 1;
         updateCartLocalStorage();
+        alert('Chair added to cart');
     } else { // Adds new instance of item to cart.
         const item = {
             name: 'Chair',
@@ -120,6 +129,7 @@ function addChair(event) { // Adds chair to cart.
         }
         cart.push(item);
         updateCartLocalStorage();
+        alert('Chair added to cart');
     }
 }
 
@@ -131,6 +141,7 @@ function addBike(event) { // Adds bike to cart.
         const itemIndex = cart.findIndex((item) => item.name === 'Bike');
         cart[itemIndex].quantity += 1;
         updateCartLocalStorage();
+        alert('Bike added to cart');
     } else { // Adds new instance of item to cart.
         const item = {
             name: 'Bike',
@@ -139,6 +150,7 @@ function addBike(event) { // Adds bike to cart.
         }
         cart.push(item);
         updateCartLocalStorage();
+        alert('Bike added to cart');
     }
 }
 
