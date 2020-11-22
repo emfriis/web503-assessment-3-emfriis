@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>    
+        <header>
+            <img id="header-logo" src="images/logo_right_text.png">
+            <p id="welcome"></p>
+            <div id="header-links">
+                <p id="home-btn" class="header-link">Home</p>
+                <p id="shop-btn" class="header-link">Shop</p>
+                <p id="checkout-btn" class="header-link">Checkout</p>
+                <p id="log-in-btn-home" class="header-link">Log In/Sign Up</p>
+                <p id="log-out-btn-home" class="header-link">Log Out</p>
+            </div>
+        </header>
+        <hr class="break">
+        
+        <div class="container">
+            <form class="form">
+                <h2 class="form-header">Log In</h2>
+                <div class="input-field">
+                    <label>Username</label>
+                    <input id="login-user" class="input" type="text" placeholder="Enter your username">
+                    <p id="login-user-empty" class="error hide">Please enter your username</p>
+                    <p id="login-user-invalid" class="error hide">Please enter an existing username</p>
+                </div>
+                <div class="input-field">
+                    <label>Password</label>
+                    <input id="login-pass" class="input" type="password" placeholder="Enter your password">
+                    <p id="login-pass-empty" class="error hide">Please enter your password</p>
+                    <p id="login-pass-invalid" class="error hide">Password is incorrect</p>
+                </div>
+                <div>
+                    <a href="#">
+                        <button id="login-btn" class="btn">Log In</button>
+                    </a>
+                </div>
+            </form>
+
+            <form class="form">
+                <h2 class="form-header">Sign Up</h2>
+                <div class="input-field">
+                    <label>Username</label>
+                    <input id="reg-user" class="input" type="text" placeholder="Enter your username">
+                    <p id="reg-user-empty" class="error hide">Please enter your username</p>
+                    <p id="reg-user-invalid" class="error hide">This username is taken</p>
+                </div>
+                <div class="input-field">
+                    <label>Password</label>
+                    <input id="reg-pass-1" class="input" type="password" placeholder="Enter your password">
+                    <p id="reg-pass-1-empty" class="error hide">Please enter your password</p>
+                </div>
+                <div class="input-field">
+                    <label>Confirm Password</label>
+                    <input id="reg-pass-2" class="input" type="password" placeholder="Confirm your password">
+                    <p id="reg-pass-2-empty" class="error hide">Please enter your password again</p>
+                    <p id="reg-pass-2-invalid" class="error hide">This doesn't match your password</p>
+                </div>
+                <div>
+                    <a href="#">
+                        <button id="reg-btn" class="btn">Sign Up</button>
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <hr class="break">
+        <div id="footer">
+            <img id="footer-logo" src="images/logo_no _text.png">
+            <div id="footer-adress">
+                <p>167 Nowhere Road</p>
+                <p>Somewhere</p>
+                <p>Somewhere Else</p>
+                <p>6010</p>
+            </div>
+            <a href="#">
+                <img class="social-link" src="images/facebook.png">
+            </a>
+            <a href="#">
+                <img class="social-link" src="images/twitter.png">
+            </a>
+            <a href="#">
+                <img class="social-link" src="images/instagram.png">
+            </a>
+        </div>
+
+    <script src="login.js" async defer></script>
+    </body>
+</html>
